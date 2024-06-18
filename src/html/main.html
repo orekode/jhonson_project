@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload</title>
+    <link rel="stylesheet" href="/src/styles/main.css">
+</head>
+<body>
+   <header>
+    <nav class="nav-container">
+        <div class="logo">
+            <a href="#">COMPUTER SCIENCE</a>
+        </div>
+        <!-- <ul class="nav-list">
+            <li><a href="/src/html/main.html">Home</a></li>
+            <li><a href="/src/html/about.html">About</a></li>
+            <li><a href="/src/html/contact.html">Contact</a></li>
+        </ul> -->
+        <div class="btn">
+            <div class="profile">
+                <a href="">
+                    <ion-icon name="person-circle-outline"></ion-icon>
+                    <h5>Johnson</h5>
+                </a>
+            </div>
+            <button class="btn primary-btn">
+                Logout
+                <ion-icon name="log-out-outline"></ion-icon>
+            </button>
+        </div>
+    </nav>
+   </header>
+
+   <main>
+    <div class="container">
+        <div class="container-content">
+                <div class="content">
+                    <ion-icon name="cloud-upload-outline" class="cloud"></ion-icon>
+                    <div id="dropZone">
+                        <h2>Drag and Drop files here</h2>
+                        <!-- <p>for plagiarism check </p> -->
+                    </div>
+                    <!-- <h2>Or</h2> -->
+                </div>
+                <div>
+                    <input type="file" id="input_file">
+                    <button class="btn primary-btn" >Upload File</button>
+                </div>
+                <!-- <a href="" class="feedback">View Feedback</a> -->
+        </div>
+    </div>
+   </main>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="/src/js/main.js"></script>
+    
+    
+</body>
+</html>
